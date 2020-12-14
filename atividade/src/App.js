@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header"> 
       <span className="logo"/>   
-        <Submenu teste={"kkkkk"} />
+        <Submenu teste={"teste"} />
       </header>
       <Carousel imgs={ImageData} id='teste' className='teste' />
     </div>
