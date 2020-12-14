@@ -1,0 +1,83 @@
+  #container{
+      display: flex;
+      align-items: center ;
+      justify-content: center;
+      flex: 1;
+  } 
+  
+
+    
+    .carousel-image {
+    position: relative;
+    top: 280px;
+    max-width: 100%;
+    width: 550px;
+    height: 350px;
+   }
+ 
+   .carousel-text {
+    position: relative;
+    top: 320px; 
+    max-width: 100%;
+    text-align: left;
+    width: 550px;
+    height: 350px;
+    background-color:#ffffff;
+    overflow: auto;
+   }
+
+      .icon {
+text-align: left;
+padding-top: 50px;
+padding-left: 75px;
+   }
+
+   .title {
+    font: bold 28px Arial;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-top: 30px;
+    padding-top: 0px;
+    padding-left: 75px;
+}
+
+.text {
+    font: 12px Arial;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-align: left;
+padding-top: 0px;
+padding-left: 75px;
+padding-right: 200px;
+}
+
+
+   .left {
+    position: relative;
+    top: 275px;
+    left: 50px; 
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: url(seta-esquerda.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color:#333333;
+    background-position: center;
+   }
+
+   .right{
+    position: relative;
+    top: 275px;
+    left: 50px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: url(seta-direita.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color: black;
+    background-position: center;
+   }
